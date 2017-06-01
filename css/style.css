@@ -1,0 +1,11 @@
+.bdr-wht-2 {
+	border: 2px solid white;
+}
+
+.bdr-wht-8 {
+	border: 8px solid white;
+}
+
+.img-link:hover {
+	cursor: pointer;
+}
