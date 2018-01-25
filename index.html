@@ -44,7 +44,7 @@
         			<i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <span class="light">Caerus</span> UNLUAV
+                    <span class="light">UNL</span>UAV
                 </a>
             </div>
 
@@ -54,7 +54,8 @@
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden"><a href="#page-top"></a></li>
                     <li><a class="page-scroll" href="#about">About</a></li>
-                    <li><a class="page-scroll" href="#video">Video</a></li>
+                    <li><a class="page-scroll" href="#current-mission">Current Mission</a></li>
+                    <li><a class="page-scroll" href="#pictures">Pictures</a></li>
                     <li><a class="page-scroll" href="#components">Components</a></li>
                     <!--<li><a class="page-scroll" href="#features">Features</a></li>-->
                     <li><a class="page-scroll" href="#lineup">Lineup</a></li>
@@ -75,8 +76,7 @@
                     <div class="col-md-10 col-md-offset-1">
                         <h1 class="brand-heading">Team Caerus</h1><hr>
                         <!-- <p class="intro-text">
-							Aerospace stuff<br>
-							More Aerospace stuff
+							UNL Aerospace Club
 						</p> -->
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
@@ -92,20 +92,31 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h2>About Team Caerus</h2>
-				<p>Team Caerus is a sub-group of the University of Nebraska - Lincoln Aersopace Club. It was formed in 2016 to complete the IARC UAV Mission 7.</p>
+				<p>Team Caerus is a sub-group of the University of Nebraska - Lincoln Aersopace Club. It was originally formed in 2016 to complete the IARC UAV Mission 7.</p>
 				<p>The team is named after the minor Greek god of opportunity, luck, and favorable moments. The team's drone, The Momus, is named after the Greek god of satire and mockery.</p>
+			</div>
+        </div>
+    </section>
+    <!-- Current Mission -->
+    <section id="current-mission" class="container content-section text-center">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h2>Current Mission</h2>
+				<p>Team Caerus is currently working on Mission 8 for IARC. The challenge involves building a swarm capable of assisting a human operator in an arena, providing protection to the operator,
+                    and allowing the operator to have eyes on multiple locations at once.
+                </p>
 			</div>
         </div>
     </section>
 
 	<!-- Video Section -->
-	<section id="video" class="container content-section text-center">
+	<section id="pictures" class="container content-section text-center">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <h2>Proof of Flight</h2>
-                <video class="bdr-wht-8" width="100%" height="100%" src="vid/PoF.MOV" type="video/mov" muted autoplay loop>
+                <h2>Pictures</h2>
+                <!-- <video class="bdr-wht-8" width="100%" height="100%" src="vid/PoF.MOV" type="video/mov" muted autoplay loop> -->
 			</div>
-        </div><br><br>
+        </div>
 		<div class="row">
             <div class="col-md-3 col-xs-6">
 				<img class="img-responsive bdr-wht-2 img-link" src="img/ascension_test.JPG"><br>
@@ -146,7 +157,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <h2>System Components</h2>
 				<p>The body of The Momus is 3D-printed and rotor blades are made of a carbon fiber to maximize the power-to-weight ratio. The rotor arms were manufactured to be detachable in the event that a replacement arm was needed or a new design was being implemented.</p>
-				<p>The graphical processing and logic occurs on an NVIDIA Jetson GPU. The jetson interfaces with the on-boarh fish-eye lens camera to monitor game objects, predict behavior, and relay this information to the printed circuit boards that control the motors.</p>
+				<p>The graphical processing and logic occurs on an NVIDIA Jetson GPU. The Jetson interfaces with the on-boarh fish-eye lens camera to monitor game objects, predict behavior, and relay this information to the printed circuit boards that control the motors.</p>
 				<p>The PCBs issue movement commands to the motors, maintain aerial stability, react when The Momus encounters obstacles, and cut power to the motors in the case of an emergency kill scenario.</p>
 			</div>
         </div>
@@ -174,31 +185,49 @@
 				<div class="row">
 					<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-0">
 						<h3>
-							Hardware<br>
-							<span class="small">The hardware team is concerned with any hardware on The Momus - the custom body, rotor arms, and printed boards.</span>
+							Autonomy<br>
+							<span class="small">The Autonomy team deals with creating drone platforms that are capable of obstacle avoidance and responding to commands.</span>
 						</h3>
 						<p style="font-family: 'Montserrat'">
-							NICK JOHS - <span class="small">TEAM CAPTAIN</span><br>
-							JAMES CLARK<br>
-							GRANT PHILLIPS<br>
-							GARRET ULMER<br>
 							ZAK HARPER<br>
-							MICHAEL FAY<br>
-							MITCH CLARK<br>
+                            SAM HARRE<br>
+                            GRANT PHILLIPS<br>
+							GARRET ULMER<br>
 						</p>
 					</div>
 					<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-0">
 						<h3>
-							Image Processing<br>
-							<span class="small">The Image Processing Team controls the logic, detecting objects, predicting movement, and issuing commands.</span>
+							Commands<br>
+							<span class="small">The Commands team is working with audio and gesture recognition so that an operator is able to issue commands to the drones.</span>
 						</h3>
 						<p style="font-family: 'Montserrat'">
-							ELLIOT SANDFORT - <span class="small">TEAM CAPTAIN</span><br>
-							JACOB KOPERSKI<br>
-							JARED FRENZEL<br>
-							LOGAN GARBER<br>
-							ABBIE JARRETT<br>
+                            CATHERINE KRUEGER<br>
+                            JONATHAN MAHLIN<br>
+                            HENRY RECKER<br>
 							JESSEE ZHANG<br>
+						</p>
+					</div>
+                </div>
+                <div class="row">
+					<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-0">
+						<h3>
+							Swarmming<br>
+							<span class="small">The Swarmming team is building a network to enable two-way communication between drones, and allow for complex flight interactions.</span>
+						</h3>
+						<p style="font-family: 'Montserrat'">
+                            LOGAN GARBER<br>
+							NICK JOHS<br>
+							ELLIOT SANDFORT<br>
+						</p>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-0">
+						<h3>
+							Telemetry<br>
+							<span class="small">The Telemetry team takes the data and video feeds generated from each drone, and aggregates it in a way that will be useful to an operator.</span>
+						</h3>
+						<p style="font-family: 'Montserrat'">
+							JACOB KOPERSKI<br>
+							GERSON URIARTE<br>
 						</p>
 					</div>
 				</div>
@@ -263,7 +292,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <h5>Copyright &copy; UNL Aerospace 2017</h5>
+            <h5>Copyright &copy; UNL Aerospace 2018</h5>
         </div>
     </footer>
 
